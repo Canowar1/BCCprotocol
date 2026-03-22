@@ -97,7 +97,7 @@ npm install
 
 # Set up environment
 cp .env.example .env
-# Fill in: PRIVATE_KEY, ANTHROPIC_API_KEY
+# Fill in: PRIVATE_KEY
 
 # Compile & deploy
 npm run compile
@@ -130,8 +130,7 @@ bcc-protocol/
 ├── docs/
 │   ├── agent.json                    # DevSpot Agent Manifest
 │   └── agent_log.json                # Auto-generated execution log
-├── WHY.md                            # Problem statement & vision
-└── CLAUDE.md                         # Development instructions
+└── WHY.md                            # Problem statement & vision
 ```
 
 ## Key Design Decisions
@@ -170,9 +169,9 @@ npm test                  # 5 tests
 **The Synthesis** — `behavioral-commitment-chain-bcc-1078`
 
 Tracks:
-- Protocol Labs — Let the Agent Cook + ERC-8004
-- Best Agent on Celo
-- Student Founder's Bet
+- Agents With Receipts — ERC-8004 (Protocol Labs)
+- 🤖 Let the Agent Cook — No Humans Required (Protocol Labs)
+- Synthesis Open Track
 
 ## License
 

@@ -17,9 +17,9 @@
     "name": "The Synthesis",
     "slug": "behavioral-commitment-chain-bcc-1078",
     "tracks": [
-      "Protocol Labs — Let the Agent Cook + ERC-8004",
-      "Best Agent on Celo",
-      "Student Founder's Bet"
+      "Agents With Receipts — ERC-8004",
+      "Let the Agent Cook — No Humans Required",
+      "Synthesis Open Track"
     ]
   },
   "technical": {
@@ -27,6 +27,6 @@
     "drift_threshold": 0.85,
     "hash_algorithm": "keccak256",
     "snapshot_storage": "IPFS",
-    "agent_runtime": "Anthropic Agents SDK"
+    "agent_runtime": "Custom TypeScript BCC Engine"
   }
 }
