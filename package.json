@@ -1,0 +1,27 @@
+{
+  "name": "bcc-protocol",
+  "version": "0.1.0",
+  "description": "Behavioral Commitment Chain — tamper-proof behavioral integrity protocol for autonomous AI agents",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "NODE_OPTIONS='--import tsx' hardhat run scripts/deploy.ts --network base-sepolia",
+    "demo": "tsx agent/demo.ts",
+    "test": "vitest run",
+    "test:contracts": "NODE_OPTIONS='--import tsx' hardhat test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "hardhat": "^2.22.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

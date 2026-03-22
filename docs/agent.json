@@ -1,0 +1,32 @@
+{
+  "name": "BCC Protocol Agent",
+  "id": "behavioral-commitment-chain-bcc-1078",
+  "uuid": "078424c8a25f46bd869305e7edb4f9b0",
+  "erc8004_agent_id": 35299,
+  "operator": "0xC61221100589071804EAf2927BA351706349cE95",
+  "description": "Tamper-proof behavioral integrity protocol for autonomous AI agents. Chains behavioral state snapshots on-chain using previousHash pointers, enabling verifiable drift detection without exposing private agent internals.",
+  "capabilities": [
+    "behavioral-commit",
+    "drift-detection",
+    "chain-verification"
+  ],
+  "chain": "base-sepolia",
+  "contract": "0x6276C0F6E664d8Ea8Da8FC05eEBff393b9EcAea2",
+  "source": "https://github.com/Canowar1/BCCprotocol",
+  "hackathon": {
+    "name": "The Synthesis",
+    "slug": "behavioral-commitment-chain-bcc-1078",
+    "tracks": [
+      "Protocol Labs — Let the Agent Cook + ERC-8004",
+      "Best Agent on Celo",
+      "Student Founder's Bet"
+    ]
+  },
+  "technical": {
+    "commit_interval": 10,
+    "drift_threshold": 0.85,
+    "hash_algorithm": "keccak256",
+    "snapshot_storage": "IPFS",
+    "agent_runtime": "Anthropic Agents SDK"
+  }
+}
